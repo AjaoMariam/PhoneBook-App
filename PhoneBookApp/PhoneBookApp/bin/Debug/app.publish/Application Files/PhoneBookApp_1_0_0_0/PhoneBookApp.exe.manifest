@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PhoneBookApp.exe" version="1.0.0.0" publicKeyToken="f3490f272ec421e3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PhoneBookApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PhoneBookApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhoneBookApp.exe" size="8088">
+      <assemblyIdentity name="PhoneBookApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pd1Ejs/ZKkCOklogDV6aLxSZR2gmNp0LECjPeh5ngZ8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PhoneBookApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MARYAM\hp" issuerKeyHash="68264bb0fc9efa0d2e89c4121a0b0a3486a37bf4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MBvjCyBAg9CwJ9TQBz8QObrM65PqNwTn1wuEBgUq4l0=</DigestValue></Reference></SignedInfo><SignatureValue>aety8SXIOfBvFGgyPgXgwG/pc5Kft1bxcAQou0nFCylTplL20jSdw3X7C9ci/lQbZ9MRyZzopPyFiQ4eiFRlbo5tJc7LWFU9GSJOodh98gDdBuy/cgd648hWBkTwIEAbgOhG9lWarxmsCBzp9PyX1+5P2oOhI2tYRZDRLWgVbHk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qwl+aFLqYtuKJXIhywmo0ygAcpOc2JoaYpvoSUZbdELmbBCH8y0w3coMvkKt62BVWVtDr/19B668fmH8QLoKiAY/bM+ghHvAo4nLEaztQRjVX6J4G+AVyylpjzVf/9LRAL5t3K7RCr26zSNNyJtk0kGdaoO9y79gLj5F1h21XuE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5de22a0506840bd7e70437ea93ebccba39103f07d0d427b0d08340200be31b30" Description="" Url=""><as:assemblyIdentity name="PhoneBookApp.exe" version="1.0.0.0" publicKeyToken="f3490f272ec421e3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MARYAM\hp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>G6XI7K+l/phntKSm5mDBOSNXybd9LlUuuLHO1gLlEUs=</DigestValue></Reference></SignedInfo><SignatureValue>EWZ6GkEmiWaK9Y7PZsUQZZbeO1TCJe0bEq7haaaPnLG3omo8umM9PHmjWm3MD+IlmGWtdpkFduZcfj86hNmQmBwv+ZvnmCwmv9HTv9mFVnphM/B6ICq7z9jK0b3KoMqwStyEZ8YP85QNq5lGBYgWwfkSs2mMRcBk91BkWYl4Vo0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qwl+aFLqYtuKJXIhywmo0ygAcpOc2JoaYpvoSUZbdELmbBCH8y0w3coMvkKt62BVWVtDr/19B668fmH8QLoKiAY/bM+ghHvAo4nLEaztQRjVX6J4G+AVyylpjzVf/9LRAL5t3K7RCr26zSNNyJtk0kGdaoO9y79gLj5F1h21XuE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQFWmmBozkEIJADk8TgEuCyDANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATQBBAFIAWQBBAE0AXABoAHAwHhcNMjMwMzAzMTMxNDE2WhcNMjQwMzAyMTkxNDE2WjAdMRswGQYDVQQDHhIATQBBAFIAWQBBAE0AXABoAHAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKsJfmhS6mLbiiVyIcsJqNMoAHKTnNiaGmKb6ElGW3RC5mwQh/MtMN3KDL5CretgVVlbQ6/9fQeuvH5h/EC6CogGP2zPoIR7wKOJyxGs7UEY1V+ieBvgFcspaY81X//S0QC+bdyu0Qq9us0jTcibZNJBnWqDvcu/YC4+RdYdtV7hAgMBAAEwDQYJKoZIhvcNAQELBQADgYEARupKRFI9W/n40Rzd3SckFd8E5DVkPRNaW2s0QwcY7A3ND8RwE8s+KeHHSS01+k/o+fVIuM0uutdk5Bupo7RVkUNe7GQKbcuQa2GafywtDUU1vk48+RUFfa7xIye5aTI2+u6BpeGzhLdt+aGoNrYqW6e7fYCklGjWkUqhEERYv7M=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

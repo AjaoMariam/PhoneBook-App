@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\bin\Debug\PhoneBookApp.exe.config
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\bin\Debug\PhoneBookApp.exe
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\bin\Debug\PhoneBookApp.pdb
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.exe
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.pdb
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\bin\Debug\PhoneBookApp.exe.manifest
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\bin\Debug\PhoneBookApp.application
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.exe.manifest
+C:\Users\hp\source\repos\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.application
